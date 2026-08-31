@@ -47,6 +47,12 @@ analogues are consumer-chat moderation banks; classic censorship lists
 method notes. The probe toolchain here reproduces and extends it against any
 provider.
 
+**Compared against every public list we could find** — 20 wordbanks, ~250K
+entries (Tencent banks, chat-moderation packs, Citizen Lab measurements,
+English profanity repos): their union covers only **5.4%** of this dataset,
+and 530 of our verified blockers appear in no public list anywhere. Full
+comparison table and credits: [`PUBLIC_LISTS.md`](PUBLIC_LISTS.md).
+
 ## Repo layout
 
 - `dataset/` — the verified blocker list + root decomposition + provenance
